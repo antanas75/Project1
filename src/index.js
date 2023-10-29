@@ -5,7 +5,8 @@ function helloWorld(x = 10, y = 10) {
     return (x + y);
 }
 
-//helloWorld();          // Logs 'Hello world'
+helloWorld();          // Logs 'Hello world'
+
 module.exports = {
     helloWorld
 }
