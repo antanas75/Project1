@@ -1,0 +1,23 @@
+{
+  "name": "javascriptproject",
+  "version": "1.0.0",
+  "description": "Optum project",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "nyc --reporter=text mocha --no-timeouts --recursive --sort './tests/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "test"
+  },
+  "author": "Optum",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0"
+  }
+}
